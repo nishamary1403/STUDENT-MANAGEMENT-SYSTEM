@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ee108f, #ec36a3, #e94eb6, #e461c7, #de72d6, #c689ec, #ad9dfa, #97aeff, #6ac5ff, #38daff, #2eecff, #5ffbf1);
+}
+
+.container {
+    margin-top: 30px;
+    width: 100%;
+    height: 780px;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fdf4fc;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4A4A8A;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.row1 input {
+    width: 80%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 20px;
+    transition: border 0.3s;
+}
+    
+.row2 input {
+    margin-top: 10px;
+    width: 80%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+    transition: border 0.3s;
+}
+.row3 input {
+    margin-top: 20px;
+    width: 80%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s;
+}
+.form-container button{
+    margin-top: 10px;
+    width: 85%;
+}
+
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border: 1px solid #4A4A8A;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4A4A8A;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3A3A6A;
+}
